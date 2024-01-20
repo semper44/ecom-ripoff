@@ -1,0 +1,8 @@
+.socialmediaparent{
+    display: flex;
+    gap: 14%;
+    z-index: 99;
+}
+.children:hover{
+    opacity: 0.5;
+}

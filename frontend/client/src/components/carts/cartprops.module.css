@@ -1,0 +1,34 @@
+.cart-items{
+    display: flex;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    margin-right: 0;
+    margin-left: 2rem;
+    padding-top: 9px;
+    height: 200px;
+}
+
+.right-cart-items{
+    display: flex;
+    justify-content: left;
+    gap: 2rem;
+    padding-left: 4rem;
+    padding-right: 1rem;
+    margin-left: 6rem;
+    margin-top: 4rem;
+}
+
+.cart-items img{
+    height: 100px;
+    width: 120px;
+    object-fit: cover;
+}
+.cart-items p{
+    color: black;
+}
+.cancel{
+    font-size: large;
+    opacity: -0.2;
+}
+.cart-items:hover .cancel{
+    opacity: 1;
+}

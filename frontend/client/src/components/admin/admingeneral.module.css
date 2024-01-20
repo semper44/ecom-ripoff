@@ -1,0 +1,133 @@
+.all-items{
+    background-color: white;
+    width: 450px;
+    max-width: 550px;
+    height: fit-content;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    border-radius: 10px;
+}
+   
+.theme-dark{
+    background-color:rgb(249, 249, 249, 0.7);
+    width: 35%;
+    height: fit-content;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    border-radius: 10px;
+}
+#cancel{
+    color: black;
+    font-weight: 500;
+    font-size: large;
+    border: none;
+    outline: none;
+    background: 0;
+    padding: 0 0.4rem;
+    cursor: pointer;
+    float: right;
+    margin-top: -0.3%;
+}
+#pcancel{
+    color: black;
+    font-weight: 500;
+    font-size: large;
+    position: absolute;
+    right: 37.2rem;
+    top: 6.1rem;
+    border: none;
+    outline: none;
+    background: 0;
+    padding: 0 0.4rem;
+    cursor: pointer;
+}
+#pcancel:hover{
+    background-color: red;
+    padding:0 0.4rem ;
+    color: white;
+    border-radius: 3px;
+}
+#cancel:hover{
+    background-color: red;
+    padding:0 0.4rem ;
+    color: white;
+    border-radius: 3px;
+}
+
+.search-items-dark{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.send-button{
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    padding-bottom: 1rem;
+}
+.searchcreate{
+    /* padding: 0.4rem 3rem; */
+    outline: none;
+    border: none;
+    background-color: cyan;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: large;
+    margin-left: 0;
+    padding: 0.7rem 1.3rem;
+}
+.searchcreate:hover{
+    opacity: 0.5;
+}
+.search-items input{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    outline: none;
+    background: 0;
+    border: none; 
+    width: 390px;
+    max-width: 400px;   
+    /* height: 35px; */
+    border-bottom: 1px solid black;
+}
+.search-items input:focus{
+    outline: none;
+    background: 0;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.search-items input:focus::placeholder{
+    color: cyan;
+    position: absolute;
+    bottom: 10px;
+}
+ 
+ /* @media (min-width:950px){
+    .all-items{
+        background-color: white;
+        width: 450px;
+        max-width: 550px;
+        height: fit-content;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        border-radius: 10px;
+    }
+    .search-items input{
+        margin-top: 3rem;
+        outline: none;
+        background: 0;
+        border: none; 
+        width: 390px;
+        max-width: 400px;   
+        height: 35px;
+        border-bottom: 1px solid black;
+    }
+}  */

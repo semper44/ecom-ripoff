@@ -1,0 +1,21 @@
+#error-parent{
+    padding:10px;
+    width: fit-content;
+    height: 70px;
+    /* float: right; */
+    position: absolute;
+    right: 0.3rem;
+    /* background-color: lightgreen; */
+}
+.error{
+    background-color: red;
+    border: 3px solid #b11226;
+}
+.error p{
+    color: white;
+
+}
+.success{
+    background-color: lightgreen;
+    border: 1px solid limegreen;
+}

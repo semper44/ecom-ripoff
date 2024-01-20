@@ -1,0 +1,6 @@
+.category-props-main{
+    display: grid;
+    grid-template-columns: 315px 315px 315px 315px;
+    position: relative; 
+    margin-top: 3rem;
+}

@@ -1,0 +1,71 @@
+.menu-products-parents{
+
+}
+.menu-details-image img{
+    border-radius: 10px;
+    height: 190px;
+    width: 150px;
+    transform: scale(0.6);
+}
+.menu-details-image img:hover{
+    transform: scale(0.7);
+}
+.menu-details-image{
+    border-radius: 10px;
+    height: 230px;
+    width: 180px;
+    overflow: hidden;
+    margin-left: -2rem;
+}
+.menu-details-image:hover .plus, .minus{
+    z-index: 1;
+}
+.minus-plus{
+    display: flex;
+    position: absolute;
+}
+.plus, .minus{
+    display: none;
+    border: none;
+    outline: none;
+    background: 0;
+    color: #fff;
+    font-size: large;
+    cursor: pointer;
+}
+.minus{
+    border: none;
+    background: 0;
+    color: #fff;
+    font-size: large;
+    /* display: flex; */
+    cursor: pointer;
+
+}
+.related-products:hover .minus{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: red;
+    margin-left: -36px;
+    margin-top: 6px; 
+    /* left: -2.5rem; */
+ 
+}
+.related-products:hover .plus{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: var(--cyan);
+    margin-top: 6px;
+    margin-left:6.5rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+ 
+}

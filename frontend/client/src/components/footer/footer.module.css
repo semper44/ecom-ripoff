@@ -1,0 +1,51 @@
+.footer{
+    margin-top: 3rem;
+    padding: 0 4%;
+    background-color: black;
+    
+}
+.footer h1, .footer h2, .footer h4, .footer p{
+    color: white;
+    letter-spacing: 2px;
+
+}
+.logo-sub{
+    display: flex;
+    padding-top: 1rem;
+}
+.container{
+    margin-top: 1.5rem;
+    gap:7rem;
+    display: flex;
+}
+.footer-bottom{
+    display: flex;
+    gap: 4.5rem;
+}
+.money-download{
+    display: flex;
+    gap:1rem;
+}
+.money-with-us{
+    margin-top: 2px;
+}
+.help{
+    width: 300px;
+}
+@media(min-width:481px)and (max-width:769px){
+    .money-download{
+        display: block;
+    }
+    .download-app{
+        margin-top: 1rem;
+        
+    }
+    .container{
+        gap: 2rem;
+    }
+}
+@media(min-width:481px)and (max-width:769px){
+    .container{
+        gap: 0.5rem;
+    }
+}

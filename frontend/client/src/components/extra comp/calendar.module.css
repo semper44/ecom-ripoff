@@ -1,0 +1,18 @@
+.calendar-parent{
+    display: flex;
+    gap: 2rem;
+    margin-top: 50px;
+    /* width: 500px; */
+}
+.calendar-child{
+    padding: 15px;
+    background-color: cyan;
+    height: fit-content;
+    border-radius: 4px;
+    /* color: white; */
+}
+.calendar-grand-child{
+    flex: 1 1 20%;
+    padding: 15px;
+    border-radius: 4px;
+}
