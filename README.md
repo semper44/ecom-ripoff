@@ -1,37 +1,40 @@
 # ecom-ripoff
-A ripoff of my ecommerce app. main code is private, you can contact me for the main code.
-E-Commerce App Documentation
-Table of Contents
-Introduction
-Features
-Technologies Used
-Installation
-Usage
-Frontend
-Real-time Notifications
-API Requests
-Libraries and Frameworks
-State Management
-Admin Pages
-User Ratings
-Backend
-APIs
-Authentication and Authorization
-Caching
-Testing
-Introduction
-Welcome to our E-Commerce app, a platform where users can buy and sell goods. The app offers real-time updates for buyers and sellers, with features such as following favorite sellers, instant notifications, and detailed user and sales statistics. This documentation provides a comprehensive guide to understanding and using the app.
+A ripoff of my ecommerce app. main code is private, you can contact me for the main code.  
 
-Features
-User registration and authentication
-Real-time notifications for buyers and sellers
-Following favorite sellers for updates
-Cart management with Redux Toolkit
-Admin pages with sales, users, and goods statistics
-MUI Datagrid for tabular representation of goods
-Seller ratings and reviews
-Password reset via email
-Technologies Used
+**E-Commerce App Documentation
+##Table of Contents
+-Introduction
+-Features
+-Technologies Used
+-Installation
+-Usage
+-Frontend
+    -Real-time Notifications
+    -API Requests
+    -Libraries and Frameworks
+    -State Management
+    -Admin Pages
+    -User Ratings
+-Backend
+    -APIs
+    -Authentication and Authorization
+    -Caching
+-Testing  
+
+**Introduction
+Welcome to our E-Commerce app, a platform where users can buy and sell goods. The app offers real-time updates for buyers and sellers, with features such as following favorite sellers, instant notifications, and detailed user and sales statistics. This documentation provides a comprehensive guide to understanding and using the app.  
+
+**Features
+-User registration and authentication
+-Real-time notifications for buyers and sellers.
+-Following favorite sellers for updates.
+-Cart management with Redux Toolkit.
+-Admin pages with sales, users, and goods statistics.
+-MUI Datagrid for tabular representation of goods.
+-Seller ratings and reviews.
+-Password reset via email.  
+
+**Technologies Used
 Frontend: React, Socket.IO, Axios, Fetch, React Query, Swiper, React Chart.js, React Redux Toolkit, Context API
 Backend: Django, Django Rest Framework (DRF), CORS, REST framework simplejwt
 Installation
