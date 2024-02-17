@@ -45,9 +45,11 @@ Welcome to my E-Commerce app, a platform where users can buy and sell goods. The
 1. Clone the repository:
 > git clone https://github.com/your-username/ecommerce-app.git
 2. Install dependencies:
+
    `cd ecommerce-app`
 
 > npm install
+
 *Install frontend dependencies*
 
  `pip install -r requirements.txt`
