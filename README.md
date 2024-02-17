@@ -55,15 +55,16 @@ Welcome to my E-Commerce app, a platform where users can buy and sell goods. The
 
 *Install backend dependencies*
 
-    Configure backend settings:
+*Configure backend settings:*
 
 - Set up the database and run migrations:
+  
   python manage.py migrate
 
-- Create a superuser for admin access:
+- Create a superuser for admin access:  
   python manage.py createsuperuser
 
-Configure frontend settings:
+*Configure frontend settings:*
 
 - Set up environment variables and configuration files as required.  
     
