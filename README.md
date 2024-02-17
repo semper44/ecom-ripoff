@@ -55,7 +55,6 @@ Welcome to my E-Commerce app, a platform where users can buy and sell goods. The
 > *Install backend dependencies*
 > 
 Configure backend settings:  
-
     Set up the database and run migrations:  
     
     python manage.py migrate  
@@ -69,13 +68,12 @@ Configure frontend settings:
     - Set up environment variables and configuration files as required.  
     
 **Usage**
-To run the app, use the following commands:
-
-# Start backend server
+To run the app, use the following commands:  
+    > Start backend server
 python manage.py runserver
 
-<!-- Start frontend
-npm start --!>
+<!--Start frontend
+npm start--!>
 
 Frontend
 Real-time Notifications
