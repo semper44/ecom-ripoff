@@ -53,7 +53,7 @@ Welcome to my E-Commerce app, a platform where users can buy and sell goods. The
 > 
 > pip install -r requirements.txt
 > *Install backend dependencies*
-> 
+
 Configure backend settings:  
     - Set up the database and run migrations:  
     
@@ -76,9 +76,9 @@ python manage.py runserver
 Start frontend
 npm start
 
-**Frontend**  
+# Frontend#
 
- ## Real-time Notifications ##  
+ **Real-time Notifications**
  
 The app leverages Socket.IO for real-time notifications. Buyers receive updates when their favorite sellers upload new goods, and sellers get instant notifications when they are followed.
 
@@ -106,16 +106,19 @@ Sellers can be rated by users, with their ratings visible to all. A higher numbe
 APIs
 The backend is built with Django and DRF, providing APIs for various functionalities. The endpoints are structured to handle user registration, goods management, user statistics, and more.
 
-Authentication and Authorization
+**Authentication and Authorization**  
+
 Authentication is handled using REST framework simplejwt, ensuring secure access to the app. Authorization is implemented to allow only admins access to specific functionalities.
 
-Caching
+**Caching**  
+
 Caching is implemented to improve performance, and certain views are cached for better response times.
 
-Testing
+**Testing**  
+
 Testing is an integral part of the development process. We are actively working on creating test suites for both the Django backend and the React frontend. Detailed documentation on testing procedures will be provided soon.
 
-Feel free to reach out if you have any questions or need further assistance!
+*Feel free to reach out if you have any questions or need further assistance!*
 
 
 
