@@ -52,7 +52,7 @@ Welcome to my E-Commerce app, a platform where users can buy and sell goods. The
 > *Install frontend dependencies*
 > 
 > pip install -r requirements.txt
-> *Install backend dependencies*
+*Install backend dependencies*
 
 Configure backend settings:  
     - Set up the database and run migrations:  
