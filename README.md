@@ -51,21 +51,21 @@ Welcome to my E-Commerce app, a platform where users can buy and sell goods. The
 > npm install
 > *Install frontend dependencies*
  
-> pip install -r requirements.txt
+> pip install -r requirements.txt  
+
 *Install backend dependencies*
 
-    Configure backend settings:  
-    
-    - Set up the database and run migrations:  
-    
-    `python manage.py migrate` 
-      
-    - Create a superuser for admin access:  
-        `python manage.py createsuperuser`  
+    Configure backend settings:
 
-Configure frontend settings:  
+- Set up the database and run migrations:
+  python manage.py migrate
 
-    - Set up environment variables and configuration files as required.  
+- Create a superuser for admin access:
+  python manage.py createsuperuser
+
+Configure frontend settings:
+
+- Set up environment variables and configuration files as required.  
     
 **Usage**  
 
