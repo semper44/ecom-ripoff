@@ -23,7 +23,7 @@ A ripoff of my ecommerce app. main code is private, you can contact me for the m
 
 **Introduction**
 
-Welcome to our E-Commerce app, a platform where users can buy and sell goods. The app offers real-time updates for buyers and sellers, with features such as following favorite sellers, instant notifications, and detailed user and sales statistics. This documentation provides a comprehensive guide to understanding and using the app.  
+Welcome to my E-Commerce app, a platform where users can buy and sell goods. The app offers real-time updates for buyers and sellers, with features such as following favorite sellers, instant notifications, and detailed user and sales statistics. This documentation provides a comprehensive guide to understanding and using the app.  
 
 **Features**
 - User registration and authentication
@@ -46,14 +46,19 @@ Welcome to our E-Commerce app, a platform where users can buy and sell goods. Th
 > git clone https://github.com/your-username/ecommerce-app.git
 2. Install dependencies:
 > cd ecommerce-app
+>
 > npm install   # Install frontend dependencies
+> 
 > pip install -r requirements.txt   # > Install backend dependencies
+> 
 Configure backend settings:
-    - Set up the database and run migrations:
-    > python manage.py migrate
+    - Set up the database and run migrations:  
+    
+    > python manage.py migrate  
+    
 Create a superuser for admin access:
-bash
-Copy code
+bash.
+
 python manage.py createsuperuser
 Configure frontend settings:
 Set up environment variables and configuration files as required.
