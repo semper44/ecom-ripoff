@@ -59,27 +59,31 @@ Configure backend settings:
     
     python manage.py migrate  
     
-Create a superuser for admin access:
-bash.
+    - Create a superuser for admin access:  
+    python manage.py createsuperuser  
 
-    > python manage.py createsuperuser  
+Configure frontend settings:  
 
-Configure frontend settings:
     - Set up environment variables and configuration files as required.  
     
-**Usage**
+**Usage**  
+
 To run the app, use the following commands:  
+
     > Start backend server
 python manage.py runserver
 
 <!--Start frontend
 npm start--!>
 
-**Frontend**
- ## Real-time Notifications ##
+**Frontend**  
+
+ ## Real-time Notifications ##  
+ 
 The app leverages Socket.IO for real-time notifications. Buyers receive updates when their favorite sellers upload new goods, and sellers get instant notifications when they are followed.
 
-**API Requests**
+**API Requests**  
+
 API requests are made using Axios, Fetch, and React Query. This demonstrates a versatile knowledge of different approaches to handling API requests.
 
 **Libraries and Frameworks**  
