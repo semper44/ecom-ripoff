@@ -59,10 +59,10 @@ Welcome to my E-Commerce app, a platform where users can buy and sell goods. The
 
 - Set up the database and run migrations:
   
-  python manage.py migrate
+  `python manage.py migrate`
 
 - Create a superuser for admin access:  
-  python manage.py createsuperuser
+  `python manage.py createsuperuser`
 
 *Configure frontend settings:*
 
@@ -72,10 +72,10 @@ Welcome to my E-Commerce app, a platform where users can buy and sell goods. The
 
 To run the app, use the following commands:  
 
-    - Start backend server  
+- Start backend server  
     `python manage.py runserver`
 
-    - Start frontend  
+- Start frontend  
 
      `npm start`
 
