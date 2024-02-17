@@ -1,14 +1,14 @@
 # ecom-ripoff
 A ripoff of my ecommerce app. main code is private, you can contact me for the main code.  
 
-**E-Commerce App Documentation
-##Table of Contents
--Introduction
--Features
--Technologies Used
--Installation
--Usage
--Frontend
+**E-Commerce App Documentation**
+## Table of Contents
+- Introduction
+- Features
+- Technologies Used
+- Installation
+- Usage
+- Frontend
     -Real-time Notifications
     -API Requests
     -Libraries and Frameworks
