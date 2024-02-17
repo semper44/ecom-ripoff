@@ -77,7 +77,7 @@ To run the app, use the following commands:
 
      `npm start`
 
-# Frontend #
+# Frontend
 
  **Real-time Notifications**
  
@@ -103,8 +103,8 @@ Admins have access to specialized pages for blocking users, deleting goods, and 
 
 Sellers can be rated by users, with their ratings visible to all. A higher number of stars indicates a higher rating. Sellers can also view their critical and positive ratings.
 
-**Backend**
-APIs
+# Backend
+**APIs**
 The backend is built with Django and DRF, providing APIs for various functionalities. The endpoints are structured to handle user registration, goods management, user statistics, and more.
 
 **Authentication and Authorization**  
