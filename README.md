@@ -55,14 +55,14 @@ Welcome to my E-Commerce app, a platform where users can buy and sell goods. The
 > *Install backend dependencies*
 > 
 Configure backend settings:  
-    Set up the database and run migrations:  
+    - Set up the database and run migrations:  
     
     python manage.py migrate  
     
 Create a superuser for admin access:
 bash.
 
-python manage.py createsuperuser  
+    > python manage.py createsuperuser  
 
 Configure frontend settings:
     - Set up environment variables and configuration files as required.  
@@ -75,26 +75,30 @@ python manage.py runserver
 <!--Start frontend
 npm start--!>
 
-Frontend
-Real-time Notifications
+**Frontend**
+ ## Real-time Notifications ##
 The app leverages Socket.IO for real-time notifications. Buyers receive updates when their favorite sellers upload new goods, and sellers get instant notifications when they are followed.
 
-API Requests
+**API Requests**
 API requests are made using Axios, Fetch, and React Query. This demonstrates a versatile knowledge of different approaches to handling API requests.
 
-Libraries and Frameworks
+**Libraries and Frameworks**  
+
 The frontend utilizes Swiper and React Chart.js for enhanced user experience. React Redux Toolkit manages the shopping cart, while Context API is employed for data sharing within components.
 
-State Management
+**State Management**  
+
 The state management includes the use of React Redux Toolkit for the cart and Context API for other data sharing within components. Additionally, useMemo and useCallback are employed for optimizing performance.
 
-Admin Pages
+**Admin Pages**  
+
 Admins have access to specialized pages for blocking users, deleting goods, and viewing detailed statistics on sales, users, and goods per month. This functionality is restricted to users with the necessary permissions.
 
-User Ratings
+**User Ratings**  
+
 Sellers can be rated by users, with their ratings visible to all. A higher number of stars indicates a higher rating. Sellers can also view their critical and positive ratings.
 
-Backend
+**Backend**
 APIs
 The backend is built with Django and DRF, providing APIs for various functionalities. The endpoints are structured to handle user registration, goods management, user statistics, and more.
 
