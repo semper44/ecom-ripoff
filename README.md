@@ -35,8 +35,10 @@ Welcome to our E-Commerce app, a platform where users can buy and sell goods. Th
 - Seller ratings and reviews.
 - Password reset via email.  
 
-**Technologies Used**
-**Frontend**: React, Socket.IO, Axios, Fetch, React Query, Swiper, React Chart.js, React Redux Toolkit, Context API.
+**Technologies Used**  
+
+**Frontend**: React, Socket.IO, Axios, Fetch, React Query, Swiper, React Chart.js, React Redux Toolkit, Context API.  
+
 **Backend**: Django, Django Rest Framework (DRF), CORS, REST framework simplejwt  
 
 **Installation**
