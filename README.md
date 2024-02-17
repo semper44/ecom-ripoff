@@ -45,13 +45,17 @@ Welcome to my E-Commerce app, a platform where users can buy and sell goods. The
 1. Clone the repository:
 > git clone https://github.com/your-username/ecommerce-app.git
 2. Install dependencies:
+> 
 > cd ecommerce-app
 >
-> npm install   # Install frontend dependencies
+> npm install
+> *Install frontend dependencies*
 > 
-> pip install -r requirements.txt   # > Install backend dependencies
+> pip install -r requirements.txt
+> *Install backend dependencies*
 > 
-Configure backend settings:
+Configure backend settings:  
+
     - Set up the database and run migrations:  
     
     > python manage.py migrate  
@@ -59,19 +63,20 @@ Configure backend settings:
 Create a superuser for admin access:
 bash.
 
-python manage.py createsuperuser
+python manage.py createsuperuser  
+
 Configure frontend settings:
-Set up environment variables and configuration files as required.
-Usage
+    - Set up environment variables and configuration files as required.  
+    
+**Usage**
 To run the app, use the following commands:
 
-bash
-Copy code
 # Start backend server
 python manage.py runserver
 
-# Start frontend
-npm start
+<! -- Start frontend
+npm start --! >
+
 Frontend
 Real-time Notifications
 The app leverages Socket.IO for real-time notifications. Buyers receive updates when their favorite sellers upload new goods, and sellers get instant notifications when they are followed.
