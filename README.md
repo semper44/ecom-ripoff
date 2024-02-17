@@ -9,50 +9,46 @@ A ripoff of my ecommerce app. main code is private, you can contact me for the m
 - Installation
 - Usage
 - Frontend
-    -Real-time Notifications
-    -API Requests
-    -Libraries and Frameworks
-    -State Management
-    -Admin Pages
-    -User Ratings
--Backend
-    -APIs
-    -Authentication and Authorization
-    -Caching
--Testing  
+    - Real-time Notifications
+    - API Requests
+    - Libraries and Frameworks
+    - State Management
+    - Admin Pages
+    - User Ratings
+- Backend
+    - APIs
+    - Authentication and Authorization
+    - Caching
+- Testing  
 
-**Introduction
+**Introduction**
+
 Welcome to our E-Commerce app, a platform where users can buy and sell goods. The app offers real-time updates for buyers and sellers, with features such as following favorite sellers, instant notifications, and detailed user and sales statistics. This documentation provides a comprehensive guide to understanding and using the app.  
 
-**Features
--User registration and authentication
--Real-time notifications for buyers and sellers.
--Following favorite sellers for updates.
--Cart management with Redux Toolkit.
--Admin pages with sales, users, and goods statistics.
--MUI Datagrid for tabular representation of goods.
--Seller ratings and reviews.
--Password reset via email.  
+**Features**
+- User registration and authentication
+- Real-time notifications for buyers and sellers.
+- Following favorite sellers for updates.
+- Cart management with Redux Toolkit.
+- Admin pages with sales, users, and goods statistics.
+- MUI Datagrid for tabular representation of goods.
+- Seller ratings and reviews.
+- Password reset via email.  
 
-**Technologies Used
-Frontend: React, Socket.IO, Axios, Fetch, React Query, Swiper, React Chart.js, React Redux Toolkit, Context API
-Backend: Django, Django Rest Framework (DRF), CORS, REST framework simplejwt
-Installation
-Clone the repository:
-bash
-Copy code
-git clone https://github.com/your-username/ecommerce-app.git
-Install dependencies:
-bash
-Copy code
-cd ecommerce-app
-npm install   # Install frontend dependencies
-pip install -r requirements.txt   # Install backend dependencies
+**Technologies Used**
+**Frontend**: React, Socket.IO, Axios, Fetch, React Query, Swiper, React Chart.js, React Redux Toolkit, Context API.
+**Backend**: Django, Django Rest Framework (DRF), CORS, REST framework simplejwt  
+
+**Installation**
+1. Clone the repository:
+> git clone https://github.com/your-username/ecommerce-app.git
+2. Install dependencies:
+> cd ecommerce-app
+> npm install   # Install frontend dependencies
+> pip install -r requirements.txt   # > Install backend dependencies
 Configure backend settings:
-Set up the database and run migrations:
-bash
-Copy code
-python manage.py migrate
+    - Set up the database and run migrations:
+    > python manage.py migrate
 Create a superuser for admin access:
 bash
 Copy code
